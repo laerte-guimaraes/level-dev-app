@@ -7,7 +7,7 @@ services:
     ports:
       - 3000:3000
     volumes:
-      - .:/storage
+      - .:/rental-cars
     tty: true
     stdin_open: true
     # env_file:
